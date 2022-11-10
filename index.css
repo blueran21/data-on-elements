@@ -1,0 +1,44 @@
+li {
+    list-style-type: none;
+    width: 33%;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+
+/* Your code here */
+li[data-type='drinks'] {
+    background-color: aqua;
+}
+
+li[data-type='bakery'] {
+    background-color: red;
+}
+
+li[data-type='canned'] {
+    background-color: rgb(0, 255, 149);
+}
+
+li[data-type='dairy'] {
+    background-color: gray;
+}
+
+li[data-type='frozen'] {
+    background-color: gold;
+}
+
+li[data-type='meats'] {
+    background-color: green;
+}
+
+li[data-type='produce'] {
+    background-color: blue;
+}
+
+li[data-type='toiletries'] {
+    background-color: black;
+}
+
+li[data-type='other'] {
+    background-color: purple;
+}
